@@ -1,7 +1,7 @@
 """Classes for creating Mermaid diagrams."""
 
 
-class PacketDiagram():
+class PacketDiagram:
     """
     Class for creating a Mermaid packet diagram.
     Diagram type:`packet-beta`.
@@ -28,7 +28,7 @@ class PacketDiagram():
         """Create the header of the mermaid diagram."""
         if self.title:
             self._header += "---"
-            self._header += f"\ntitle: \"{self.title}\""
+            self._header += f'\ntitle: "{self.title}"'
             self._header += "\n---"
         self._header += "\npacket-beta"
 
@@ -112,7 +112,7 @@ class PacketDiagram():
         if text:
             name += f"{text}"
 
-        self._segment_content += f"{address} : \"{name}\""
+        self._segment_content += f'{address} : "{name}"'
 
     def add_segment_bytes(self, nr_of_bytes: int | float, text: str = None):
         """Append a segment with size specified in `bytes` or `bytes.bits` to the mermaid diagram.
