@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 
 - Use screenshots instead of codeblocks for better experience on `pypi.org`.
+- Use new license syntax in `pyproject.toml`.
 
 ## [0.1.0] - 2025-04-21
 
