@@ -86,7 +86,7 @@ print(d.diagram_markdown)
 
 Which renders as:
 
-![example-TCP-packet]([img/example-TCP-packet.png](https://github.com/mrBrutus/mermaid_diagram/raw/main/img/example-TCP-packet.png) "Rendered example: TCP packet")
+![example-TCP-packet]([img/example-TCP-packet.png](https://github.com/mrBrutus/mermaid_diagram/raw/main/.img/example-TCP-packet.png) "Rendered example: TCP packet")
 
 In the next example we activate the `use_number_prefix` option, so that every
 segment gets a number prefix (e.g. `1) First segment`).
@@ -121,7 +121,7 @@ print(d.diagram_markdown)
 
 Which renders as:
 
-![example-UDP-packet]([img/example-UDP-packet.png](https://github.com/mrBrutus/mermaid_diagram/raw/main/img/example-UDP-packet.png) "Rendered example: UDP packet")
+![example-UDP-packet]([img/example-UDP-packet.png](https://github.com/mrBrutus/mermaid_diagram/raw/main/.img/example-UDP-packet.png) "Rendered example: UDP packet")
 
 ## Known issues
 
