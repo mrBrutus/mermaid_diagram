@@ -1,7 +1,10 @@
-"""Classes for creating Mermaid diagrams."""
+"""
+Class for creating a Mermaid packet diagram.
+Diagram type:`packet-beta`.
+"""
 
 
-class PacketDiagram:
+class Packet:
     """
     Class for creating a Mermaid packet diagram.
     Diagram type:`packet-beta`.
