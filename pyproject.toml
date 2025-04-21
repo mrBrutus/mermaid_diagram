@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mermaid_diagram"
+version = "0.1.0"
+description = "Generate the string which represents a Mermaid diagram."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+authors = [{ name = "mrBrutus" }]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Information Technology",
+  "Topic :: Documentation",
+  "Topic :: Text Processing :: Markup :: Markdown",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/mrBrutus/mermaid_diagram.git"
+Changelog = "https://github.com/mrBrutus/mermaid_diagram/blob/main/CHANGELOG.md"
+Issues = "https://github.com/mrBrutus/mermaid_diagram/issues"
