@@ -86,29 +86,7 @@ print(d.diagram_markdown)
 
 Which renders as:
 
-```mermaid
----
-title: "TCP Packet - 32 bytes (256 bits)"
----
-packet-beta
-0-15 : "Source Port"
-16-31 : "Destination Port"
-32-63 : "Sequence Number"
-64-95 : "Acknowledgment Number"
-96-99 : "Data Offset"
-100-105 : "Reserved"
-106 : "URG"
-107 : "ACK"
-108 : "PSH"
-109 : "RST"
-110 : "SYN"
-111 : "FIN"
-112-127 : "Window"
-128-143 : "Checksum"
-144-159 : "Urgent Pointer"
-160-191 : "(Options and Padding)"
-192-255 : "Data (variable length)"
-```
+![example-TCP-packet]([img/example-TCP-packet.png](https://github.com/mrBrutus/mermaid_diagram/raw/main/img/example-TCP-packet.png) "Rendered example: TCP packet")
 
 In the next example we activate the `use_number_prefix` option, so that every
 segment gets a number prefix (e.g. `1) First segment`).
@@ -143,17 +121,7 @@ print(d.diagram_markdown)
 
 Which renders as:
 
-```mermaid
----
-title: "UDP Packet - 12 bytes (96 bits)"
----
-packet-beta
-0-15 : "1) Source Port"
-16-31 : "2) Destination Port"
-32-47 : "3) Length"
-48-63 : "4) Checksum"
-64-95 : "5) Data (variable length)"
-```
+![example-UDP-packet]([img/example-UDP-packet.png](https://github.com/mrBrutus/mermaid_diagram/raw/main/img/example-UDP-packet.png) "Rendered example: UDP packet")
 
 ## Known issues
 
