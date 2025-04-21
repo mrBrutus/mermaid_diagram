@@ -126,8 +126,9 @@ d.add_segment_bytes(2, "Length")
 d.add_segment_bytes(2, "Checksum")
 d.add_segment_bytes(4, "Data (variable length)")
 d.title = f"UDP Packet - {d.size_in_bytes} bytes ({d.size_in_bits} bits)"
-print(d.diagram)
+print(d.diagram_markdown)
 
+# ```mermaid
 # ---
 # title: "UDP Packet - 12 bytes (96 bits)"
 # ---
@@ -137,6 +138,7 @@ print(d.diagram)
 # 32-47 : "3) Length"
 # 48-63 : "4) Checksum"
 # 64-95 : "5) Data (variable length)"
+# ```
 ```
 
 Which renders as:
