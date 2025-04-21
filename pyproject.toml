@@ -16,7 +16,6 @@ classifiers = [
   "Intended Audience :: Information Technology",
   "Topic :: Documentation",
   "Topic :: Text Processing :: Markup :: Markdown",
-  "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3",
 ]
 dependencies = []
