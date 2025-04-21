@@ -36,7 +36,7 @@ To include the total packet size in the title, it uses the `size_in_bytes` and
 Finally, the diagram string is returned as markdown code block.
 
 ```py
-from mermaid_diagram.packet_diagram import PacketDiagram
+from mermaid_diagram.packet import PacketDiagram
 
 d = PacketDiagram()
 d.add_segment_bytes(2, "Source Port")
@@ -90,7 +90,7 @@ This can be helpful if the diagram will be accompanied by a numbered list
 where the segments are explained in detail.
 
 ```py
-from mermaid_diagram.packet_diagram import PacketDiagram
+from mermaid_diagram.packet import PacketDiagram
 
 d = PacketDiagram()
 d.use_number_prefix = True
